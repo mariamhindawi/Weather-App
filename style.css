@@ -1,0 +1,177 @@
+
+  
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Nunito",sans-serif;
+  background-image: url("public/bg.jpg");
+}
+.all{
+  margin-right: auto;
+  margin-left:  auto;
+  margin-top: 100px;
+  width: 600px;
+  height: 500px;
+  
+}
+
+.input{
+  display: flex;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  
+}
+
+input[type="submit"]{
+  flex: 2;
+  width: 90px;
+  height: 40px;
+  padding: 5px 0px;
+  background: rgba(65, 151, 185, 0.6);
+  margin-left: 10px;  
+  margin-right: 10px;
+  border:none;
+  border-radius: 10px;
+  font-weight:bold;
+  font-family: "Nunito",sans-serif;
+  font-size: 10 px;
+  text-align: center;
+}
+
+.input input[type="text"]{
+  flex: 6;
+  width: 400px;
+  height: 40px;
+  padding: 5px 10px;
+    background-color: rgba(224, 224, 224,0.8);
+  border: none;
+  border-radius: 10px;
+  font-family: "Nunito",sans-serif;
+  font-size: 20px;
+}
+.Or{
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 600px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(224, 224, 224,0.9);
+ 
+}
+
+.top-section{
+  flex: 0.5;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  
+}
+.city{
+  margin-left: 60px;
+  margin-top: 30px;
+  font-size: 30px;
+}
+.middle-section{
+  align-items: center;
+  display: flex;
+  flex: 1;
+  
+}
+.icon-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex:1;
+  margin-top: -100px;
+  margin-left: -35px;  
+
+}
+.icon{
+  flex: 1;
+  margin-top: 20px;
+
+}
+.description{
+  margin-top: 190px;
+  position: absolute;
+  flex:0;
+  font-size: 20px;
+  
+}
+.temp-section{
+  text-align: center;
+  flex:1;
+  margin-top: -17px;
+}
+.temperature{
+ font-size: 50px;
+}
+.feels-like{
+ padding-top: 35px;
+ font-size: 20px;
+  
+}
+
+
+
+.bottom-section {
+  flex: 0.5 ;
+  display: flex;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+  align-items: center;
+  
+ 
+}
+.stat-1 {
+  flex: 1;
+}
+.stat-2 {
+  flex: 1;
+}
+.stat-3 {
+  flex: 1;
+  
+}
+
+.part-1{
+  display: flex;
+}
+
+.title{
+  flex: 1;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.value{
+  padding-top: 15px;
+  font-size: 15px;
+}
+.img1{
+  flex:0.5;
+  margin-right: -65px;
+}
+.img2{
+  flex:0.5;
+  margin-right: -50px;
+}
+.img3{
+  flex:0.5;
+  margin-right: -25px;
+}
+
+
+
+
+
